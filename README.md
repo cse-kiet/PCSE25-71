@@ -1,5 +1,5 @@
-# Virtual Directory for Easy Storing and Accessing Medical Records using ML and AR- CARE360
+# EduCARE
 
-
+## OCR Grading Assistant : Data Field Extraction From Marksheet Using OCR
 
 PCSE25-71
