@@ -4,6 +4,7 @@ import {
   UPLOAD_FAILURE 
 } from '../constants/actionTypes';
 import axios from 'axios';
+const baseURL = process.env.REACT_APP_API_BASE_URL;
 
 // Action to upload an image (camera or file upload)
 export const uploadImage = (file) => async (dispatch) => {
@@ -13,7 +14,8 @@ export const uploadImage = (file) => async (dispatch) => {
     const formData = new FormData();
     formData.append('file', file);
 
-    const response = await axios.post('http://localhost:5000/api/upload', formData, {
+    
+    const response = await axios.post(`${baseURL}/api/upload`, formData, {
       headers: { 'Content-Type': 'multipart/form-data' },
     });
 
