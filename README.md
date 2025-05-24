@@ -1,15 +1,66 @@
-# Title of Project: [PROJECT_TITLE_HERE]
+# Title of Project: Data Extraction from Exam Answer Sheets using OCR
 
 ## Team Members:
-1. [TEAM_MEMBER_1_NAME]
-2. [TEAM_MEMBER_2_NAME]
-3. [TEAM_MEMBER_3_NAME]
-4. [TEAM_MEMBER_4_NAME]
+1. Shreya Sharma
+2. Mohammed Faaiz
+3. Samiksha Gupta
 
-## Steps for Execution:
-1. [STEP 1]
-2. [STEP 2]
-   (Add more steps as needed)
+## 🚀 Steps for Execution
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/<your-username>/PCSE25-71.git
+   cd PCSE25-71
+   ```
+
+2. **Install Backend Dependencies**
+
+   ```bash
+   cd backend
+   npm install
+   ```
+
+3. **Set Up Environment Variables**
+
+   * Create a `.env` file inside the `backend` folder:
+
+     ```env
+     PORT=5000
+     MONGO_URI=<your_mongo_connection_string>
+     ```
+
+4. **Start the Backend Server**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Install Frontend Dependencies**
+   Open a new terminal tab/window:
+
+   ```bash
+   cd frontend
+   npm install
+   ```
+
+6. **Start the Frontend App**
+
+   ```bash
+   npm start
+   ```
+
+7. **Access the Application**
+
+   * Frontend: `http://localhost:3000`
+   * Backend: `http://localhost:5000`
+
+8. **Use the App**
+
+   * Upload scanned answer sheets into the system.
+   * Evaluate teacher responses and calculate total marks or grades.
+   * Access student's grades or marks and track their progress easily.
+   * Create reports for individual performance.
+
 
 ## Checklist:
 1. Final Project Report
