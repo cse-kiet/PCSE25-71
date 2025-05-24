@@ -1,4 +1,4 @@
-# Title of Project: EduScan
+# Title of Project: Data Extraction from Exam Answer Sheets using OCR
 
 ## Team Members:
 1. Shreya Sharma
