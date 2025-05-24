@@ -13,7 +13,11 @@ const app = express();
 
 // Enable CORS
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://backend-dvzi.onrender.com'],
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'https://pcse-25-71.vercel.app'
+  ],
   credentials: true
 }));
 
